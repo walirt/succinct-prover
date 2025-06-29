@@ -37,6 +37,7 @@ echo "-----Downloading succint prover-----"
 git clone https://github.com/succinctlabs/network.git
 cd network/bin/node
 RUSTFLAGS="-C target-cpu=native" cargo build --release
+cd ~/network
 ./target/release/spn-node --version
 cp ./target/release/spn-node /usr/local/bin/spn-node
 echo
@@ -73,11 +74,13 @@ read -p "Please enter the private key:" private_key
 
 read -p "Please enter the prover address:" prover_address
 
+echo
+
 echo "-----Enter the following command to start the prover node-----"
-echo 
+echo "source ~/.bashrc"
 echo "export SP1_PROVER=cuda"
 echo "spn-node prove \\"
-echo "    --rpc-url https://rpc-production.succinct.xyz \\"
+echo "    --rpc-url https://rpc.sepolia.succinct.xyz \\"
 echo "    --throughput $throughput \\"
 echo "    --bid $bid_price \\"
 echo "    --private-key $private_key \\"
