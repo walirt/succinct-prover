@@ -1,6 +1,6 @@
 # Succinct prover
 > ⚠️ You must create a prover at the [SITE](https://staking.sepolia.succinct.xyz/prover) and at least stake ~~1~~ 1000 $PROVE  
-> 😊 If this script is helpful, feel free to stake 1 $PROVE to my prover, [LINK](https://staking.sepolia.succinct.xyz/)  
+> 😊 If this script is helpful, feel free to stake 1 $PROVE to my prover, [LINK](https://staking.sepolia.succinct.xyz/?prover=0x9F2DCE218d62e3D89286B1f4FB5De429e5441A8c)  
 > 👉 Address: **0x9F2DCE218d62e3D89286B1f4FB5De429e5441A8c**
 
 English | [中文](https://github.com/walirt/succinct-prover/blob/main/README_zh.md)
